@@ -1,0 +1,303 @@
+@charset "ISO-8859-1";
+
+.flex_container_index{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 300px;
+}
+
+.container_admin{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.flex_container_admin{
+	background-color: lightgrey;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin: -150px 0 0 -150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*-----------------------------------Home Page CSS--------------------------*/
+
+.homePage-navbar{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: #eeeeee;
+}
+
+.homePage-navbar .homePage-logo{
+	display:flex;
+	align-items: center;
+	margin: 0 24px;
+	width: 100%;
+}
+
+.homePage-logo .homePage-icon{
+	height: 50px;
+	width: 50px;
+	margin-right: 12px;
+	padding-top: 5px;
+	border-radius: 8px;
+	
+}
+.homePage-logo .HomePage-logo-name{
+	font-size: 24px;
+	font-weight:600;
+	display: flex;
+	align-items: center;
+	color: #333;
+}
+
+.homePage-logo .nav-link{
+	font-size: 20px;
+	font-weight: 300;
+	display: flex;
+	align-items: center;	
+	color: #666;
+}
+
+.homePage-navbar .HomePage-sidebar-content{
+	position: fixed;
+	top: 50px;
+	left: 0;
+	height: 100%;
+	width: 260px;
+	background-color: #eee;
+}
+
+.homePage-list{
+	list-style: none;
+	padding-left: 25px;
+	align-items: center;
+}
+
+.homePage-list .nav-link:hover{
+	background-color: #fff;
+	border-radius: 8px;
+	margin-right: 25px;
+	padding-right: 30px;
+}
+
+.homePage-list .nav-link{
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+	display: flex;
+	align-items: center;
+	padding: 14px 12px;
+	text-decoration:inherit;
+}
+
+.overlay{
+	position: fixed;
+	top: 50px;
+	left: 260px;
+	height: 1000vh;
+	width: 100%;
+	background: #ddd; 
+}
+
+.overlay .Admin-profile{
+	margin: 14px;
+	padding-right: 20px;
+	background-color: #fff;
+	height: 500vh;
+}
+
+.section-heading{
+	padding-top: 25px;
+	font-weight: 500;
+	font-family:serif;
+	font-style: oblique;
+	padding-left: 15px;
+	font-style: inherit;
+}
+
+.Admin-profile .section-list{
+	padding: 10px 15px;
+	margin-right: 20px;
+	font-style:inherit;
+	color: #777;
+}
+
+.row-headings{
+	padding-right: 20px;
+}
+
+ .input-box{
+	padding-left: 40px;
+	margin-bottom: 25px;
+	
+}
+
+.submit{
+	margin: 0 20px 0 12px;
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+
+/* --------------------- Places.jsp. ------------------------ */
+
+.overlay-places{
+	position: fixed;
+	top: 50px;
+	left: 260px;
+	height: 1000vh;
+	width: 100%;
+	background: #ddd; 
+}
+
+.overlay-places .Places-Master{
+	margin: 14px;
+	height: 20vh;
+	width: 80%;
+	padding-right: 20px;
+	background-color: #fff;
+}
+
+.Places-title{
+	margin-top: 10px;
+	padding: 20px 0 0 20px;
+	font-style: inherit;
+}
+
+.link-button{
+	margin-left: 20px;
+	padding-top: 50px;
+	text-decoration: inherit;
+}
+
+.table-Places{
+	position: absolute;
+	height: 200vh;
+	width: 80%;
+}
+
+.scroll-bar{
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+}
+
+::-webkit-scrollbar{
+	width: 20px;
+}
+
+::-webkit-scrollbar-track{
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.table-Places .table{
+	margin: 14px;
+	padding-right: 20px;
+	background-color: #fff;
+}
+
+.rows{
+	top: 20px;
+	font-size: 20;
+	padding: 10px;
+	color: grey;
+}
+
+.rows .row1{
+	width: 50%;	
+}
+
+.places-edit{
+	margin: 14px;
+	padding-right: 20px;
+	height: 500vh;
+	background-color: #fff;
+}
+
+.Places-edit-column{
+	margin: 20px;
+	padding: 30px;
+	color: grey;
+	font-style: inherit;
+	display: flex;
+	flex-direction: column;
+}
+
+.scroll-bar-flight{
+	height: 100%;
+	width: 80%;
+	overflow: scroll;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scroll-bar-flight {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scroll-bar-flight-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scroll-bar-flight-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scroll-bar-flight-thumb:hover {
+  background: #555; 
+  }
+
+.Flight-edit-column{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin: 10px; 
+}
+
+.places-edit .flightEdit{
+	display:flex;
+	flex-direction: column;
+	padding: 20px;
+	margin: 20px; 
+}
+/*-----------------------   User.jsp --------------------------------*/
+.user-mx-auto{
+	position: absolute;
+	top: 10%;
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	padding-left: 30%;
+	align-items: center;
+		
+}
